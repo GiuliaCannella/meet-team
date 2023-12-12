@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.container .titolo {
+    text-align: center;
+    color:#e53371;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin: 1em 0;
+}
+
+.container .paragrafo {
+    text-align: center;
+}
+
+.container .box {
+    width: calc(100% / 3 - 0.4rem);
+    background-color: black;
+    margin-top: 2em;
+    margin-left: 0.4rem;
+    float: left;
+}
+
+.container .img {
+    width: 80px;
+    height: 80px;
+    background-size: contain;
+}
+
+.container .container-person {
+    color: white;
+    font-size: small;
+    float: right;
+    padding: 15px 0;
+    width: 65%;
+}
+.container .container-person ul {
+    list-style: none;
+
+}
+
+.container .container-person .nome {
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.container .float-left {
+    float: left;
+}
+
+.clearfix::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+ 
+.container .container-person li {
+    margin-bottom: 3px;
+    font-size: 0.8em;
+}
+
+.container .container-person li a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.container .img-1 {
+    background-image: url("../img/male1.png");
+}
+
+.container .img-2 {
+    background-image: url("../img/female2.png");
+}
+
+.container .img-3 {
+    background-image: url("../img/female1.png");
+}
